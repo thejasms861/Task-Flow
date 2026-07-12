@@ -1,0 +1,67 @@
+# ─── Environments / Secrets ───────────────────────────────────────────────
+.env
+.env.local
+.env.*.local
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# ─── Python ───────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ─── Django ───────────────────────────────────────────────────────────────
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+staticfiles/
+
+# ─── Node ─────────────────────────────────────────────────────────────────
+node_modules/
+npm-debug.log
+yarn-error.log
+yarn-debug.log
+
+# ─── Frontend build ───────────────────────────────────────────────────────
+frontend/dist/
+frontend/build/
+frontend/.vite_cache/
+
+# ─── Debug files ──────────────────────────────────────────────────────────
+backend/*.txt
+backend/reg.json
+backend/test_reg.py
+backend/pytest.ini
+backend/.pytest_cache/
+
+# ─── IDEs and OS ──────────────────────────────────────────────────────────
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
